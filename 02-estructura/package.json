@@ -4,10 +4,10 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "server": "nodemon --env-file=.env app.js",
+    "server": "node --env-file=.env app.js",
     "dev": "nodemon --env-file=.env app.js"
   },
-  "author": "nico",
+  "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
